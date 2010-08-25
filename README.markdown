@@ -15,9 +15,9 @@ To use this plugin and start compiling clojure code as part of your maven build,
 
     <plugins>
       <plugin>
-        <groupId>com.theoryinpractise</groupId>
+        <groupId>org.clojars.sumbach</groupId>
         <artifactId>clojure-maven-plugin</artifactId>
-        <version>1.3.1</version>
+        <version>1.3.4-SNAPSHOT</version>
       </plugin>
     </plugins>
 

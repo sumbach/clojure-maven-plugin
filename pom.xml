@@ -2,16 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <name>clojure-maven-plugin Maven Mojo</name>
-  <groupId>com.theoryinpractise</groupId>
+  <groupId>org.clojars.sumbach</groupId>
   <artifactId>clojure-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <version>1.3.4-SNAPSHOT</version>
   <description>Maven plugin for compiling clojure source files</description>
-  <url>http://github.com/talios/clojure-maven-plugin</url>
+  <url>http://github.com/sumbach/clojure-maven-plugin</url>
   <scm>
-    <connection>scm:git:git://github.com/talios/clojure-maven-plugin.git</connection>
-    <developerConnection>scm:git:git://github.com/talios/clojure-maven-plugin.git</developerConnection>
-    <url>http://github.com/talios/clojure-maven-plugin</url>
+    <connection>scm:git:git://github.com/sumbach/clojure-maven-plugin.git</connection>
+    <developerConnection>scm:git:git://github.com/sumbach/clojure-maven-plugin.git</developerConnection>
+    <url>http://github.com/sumbach/clojure-maven-plugin</url>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,6 +45,10 @@
       <name>Chas Emerick</name>
       <email>cemerick@snowtide.com</email>
     </contributor>
+    <contributor>
+        <name>Sam Umbach</name>
+        <email>sumbach@gmail.com</email>
+      </contributor>
   </contributors>
   <licenses>
     <license>
